@@ -200,12 +200,12 @@ Two performance thresholds were established:
 | **Agent 49** | Low tickets AND long resolution time | 🔴 **Flag for Termination** |
 | **Agent 19** | Lowest satisfaction rate (3.04 < 3.5) | 🟡 **Issue Formal Notice** |
 
-### 📊 Summary Statistics
+### 📑 Summary Statistics
 - 🔻 **12 agents** identified as least ticket-resolving agents (below 25th percentile)
 - ⏱️ **13 agents** identified as having long resolution times
 - ⭐ **1 agent** (Agent 19) flagged for critically low satisfaction rate of **3.04**
 
-###  Dashboard KPIs & Metrics
+### 📊 Dashboard KPIs & Metrics
 
 The final dashboard includes:
 
