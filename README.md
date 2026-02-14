@@ -50,7 +50,7 @@ The raw data consists of **two sheets**:
 |---|---|---|---|
 | Ticket ID | Unique identifier for each support ticket | Employee ID | ID of the employee who raised the ticket |
 | Issue Date | Date when the ticket was raised | Agent ID | ID of the agent who handled the ticket |
-| Request Category | Category of the issue (Hardware, Login Access, Software, System) | Issue Type | Type of issue (IT Error / IT Request) |
+| Request Category | Category of the issue | Issue Type | Type of issue (IT Error / IT Request) |
 | Severity | Severity level combined with type | Priority | Priority level combined with type |
 | Resolution Time | Days taken to resolve the ticket | Satisfaction Rate | Employee's satisfaction rating |
 
