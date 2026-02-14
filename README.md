@@ -45,7 +45,7 @@ This project performs an end-to-end data analysis on an IT support ticketing sys
 
 The raw data consists of **two sheets**:
 
-### 🎟️ Tickets Sheet — 11 Attributes
+### 🎟️ Tickets Sheet — 10 Attributes
 | Attribute | Description | Attribute | Description |
 |---|---|---|---|
 | Ticket ID | Unique identifier for each support ticket | Employee ID | ID of employee who raised the ticket |
@@ -54,19 +54,12 @@ The raw data consists of **two sheets**:
 | Severity | Severity level combined with type | Priority | Priority level combined with type |
 | Resolution Time | Days taken to resolve ticket | Satisfaction Rate | Employee's satisfaction rating |
 
-### 🧑‍💼 IT Agents Sheet — 7 Attributes
-| Attribute | Description |
-|---|---|
-| Agent ID | Unique identifier for each agent |
-| Agent Name | Full name of the agent |
-| Email | Agent's email address |
-| Year of Birth | Birth year |
-| Month of Birth | Birth month |
-| Day of Birth | Birth day |
-| Department | Agent's department |
-
-### ✅ Cleaned Data — 15 Attributes
-After preprocessing, two new columns were added per split (`Severity Type`, `Priority Type`) and corrections were applied — resulting in **15 clean attributes** used for all analysis.
+### 🧑‍💼 IT Agents Sheet — 6 Attributes
+| Attribute | Description | Attribute | Description |
+|---|---|---|---|
+| Agent ID | Unique identifier for each agent | Agent Name | Full name of the agent |
+| Email | Agent's email address | Year of Birth | Birth year |
+| Month of Birth | Birth month | Day of Birth | Birth day |
 
 ---
 
@@ -83,8 +76,13 @@ After preprocessing, two new columns were added per split (`Severity Type`, `Pri
 | Missing Values | None found | 0 | — |
 | Duplicate Values | None found | 0 | — |
 
+### ✅ Cleaned Data — 15 Attributes
+After preprocessing, two new columns were added per split (`Severity Type`, `Priority Type`) and corrections were applied — resulting in **15 clean attributes** used for all analysis.
+
 ---
 ## 📊 Dashboard KPIs & Metrics
+
+<img width="2718" height="1114" alt="image" src="https://github.com/user-attachments/assets/1af5f90a-5a65-4f0a-aea6-399889b05628" />
 
 The final dashboard includes:
 
@@ -100,9 +98,6 @@ The final dashboard includes:
 
 **Interactive Slicers:**
 - Date (Year) | Priority Type | Severity Type | Issue Type | Request Category
-
-<img width="2718" height="1114" alt="image" src="https://github.com/user-attachments/assets/1af5f90a-5a65-4f0a-aea6-399889b05628" />
-
 ---
 ## 🔍 Key Findings & Insights
 
