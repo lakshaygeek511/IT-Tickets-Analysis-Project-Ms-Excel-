@@ -7,7 +7,7 @@
 
 # 🎫 Call Center IT Tickets Analysis
 
-### A comprehensive data analysis project on Call Center IT Support Ticket Management, Agent Performance & Resolution Time, Customer Satisfaction with a comprehensive Dashboard of analysis & business evaluation.
+### A comprehensive data analysis project on Call Center IT Support Ticket Management, Agent Performance & Resolution Time, Customer Satisfaction with a comprehensive Dashboard of  business analysis & evaluation.
 
 ---
 
@@ -19,9 +19,9 @@
 - [Project Overview](#-project-overview)
 - [Dataset Description](#-dataset-description)
 - [Data Cleaning & Preprocessing](#-data-cleaning--preprocessing)
+- [Dashboard Overview](#-dashboard-overview)
 - [Key Findings & Insights](#-key-findings--insights)
 - [Agent Performance Analysis](#-agent-performance-analysis)
-- [Dashboard Overview](#-dashboard-overview)
 - [Project Structure](#-project-structure)
 - [Tools & Technologies](#️-tools--technologies)
 - [How to Use](#-how-to-use)
@@ -105,7 +105,26 @@ After preprocessing, two new columns were added per split (`Severity Type`, `Pri
 | Duplicate Values | None found | 0 | — |
 
 ---
+## 📊 Dashboard KPIs & Metrics
 
+The final dashboard includes:
+
+**KPI Cards:**
+- Total Tickets | Urgent Tickets | Total Agents | Avg Resolution Time | Avg Satisfaction Rate
+
+**Visualizations:**
+- 🍩 Donut Chart — Tickets % by Satisfaction Rate
+- 🥧 3D Pie Chart — Tickets % by Resolution Time
+- 📊 Clustered Bar Chart — Ticket Count by Severity Type over Time
+- 📉 Column Chart — Quarterly Resolution Time by Request Category
+- 📈 Clustered Column Chart — Satisfaction Rate by Year & Age Group
+
+**Interactive Slicers:**
+- Date (Year) | Priority Type | Severity Type | Issue Type | Request Category
+
+<img width="2718" height="1114" alt="image" src="https://github.com/user-attachments/assets/1af5f90a-5a65-4f0a-aea6-399889b05628" />
+
+---
 ## 🔍 Key Findings & Insights
 
 ### 🗂️ Ticket Distribution by Category
@@ -204,25 +223,6 @@ Two performance thresholds were established:
 - 🔻 **12 agents** identified as least ticket-resolving agents (below 25th percentile)
 - ⏱️ **13 agents** identified as having long resolution times
 - ⭐ **1 agent** (Agent 19) flagged for critically low satisfaction rate of **3.04**
-
-### 📊 Dashboard KPIs & Metrics
-
-The final dashboard includes:
-
-**KPI Cards:**
-- Total Tickets | Urgent Tickets | Total Agents | Avg Resolution Time | Avg Satisfaction Rate
-
-**Visualizations:**
-- 🍩 Donut Chart — Tickets % by Satisfaction Rate
-- 🥧 3D Pie Chart — Tickets % by Resolution Time
-- 📊 Clustered Bar Chart — Ticket Count by Severity Type over Time
-- 📉 Column Chart — Quarterly Resolution Time by Request Category
-- 📈 Clustered Column Chart — Satisfaction Rate by Year & Age Group
-
-**Interactive Slicers:**
-- Date (Year) | Priority Type | Severity Type | Issue Type | Request Category
-
----
 
 ## 📁 Project Structure
 
