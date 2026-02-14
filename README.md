@@ -105,8 +105,6 @@ The final dashboard includes:
 
 ### 🗂️ Ticket Distribution by Category
 
-<img width="417" height="248" alt="image" src="https://github.com/user-attachments/assets/1a04c1fb-fad7-4f49-be31-0f90d165866c" />
-
 | Request Category | Ticket Count | Distribution |
 |---|---|---|
 | 🖥️ System | 39,002 | **40.00%** |
@@ -120,8 +118,6 @@ The final dashboard includes:
 ---
 
 ### 📈 Ticket Volume Trend (2016–2020)
-
-<img width="384" height="245" alt="image" src="https://github.com/user-attachments/assets/3cda9c07-813e-48f4-829d-b48339c5f66d" />
 
 | Year | Ticket Count | YoY Growth |
 |---|---|---|
