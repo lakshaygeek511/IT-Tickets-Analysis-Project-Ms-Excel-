@@ -18,7 +18,7 @@
 > You are tasked with analyzing the IT support ticket management system to understand the **performance of IT agents**, the **efficiency of ticket resolution**, and the **satisfaction levels of employees**.
 
 The objective is to:
-- Identify **high and low performers** among IT agents
+- Identify **high and low performers** among IT agents 
 - Assess the **overall effectiveness** of the IT team
 - Pinpoint **areas for improvement** in the ticket resolution process
 - Make informed **staffing decisions** — including hiring, firing, and training
@@ -49,7 +49,7 @@ The raw data consists of **two sheets**:
 | Attribute | Description | Attribute | Description |
 |---|---|---|---|
 | Ticket ID | Unique identifier for each support ticket | Employee ID | ID of employee who raised the ticket |
-| Issue Date | Date when the ticket was raised | Agent ID | ID of agent who handled the ticket |
+| Fecha | Issue Date when the ticket was raised | Agent ID | ID of agent who handled the ticket |
 | Request Category | Category of the issue | Issue Type | Type of issue (IT Error / IT Request) |
 | Severity | Severity level combined with type | Priority | Priority level combined with type |
 | Resolution Time | Days taken to resolve ticket | Satisfaction Rate | Employee's satisfaction rating |
@@ -64,6 +64,8 @@ The raw data consists of **two sheets**:
 ---
 
 ## 🧹 Data Cleaning & Preprocessing
+
+<img width="2786" height="1186" alt="image" src="https://github.com/user-attachments/assets/72c882aa-8dc1-4865-a74f-c4cf7506e130" />
 
 | Issue Found | Details | Count | Fix Applied |
 |---|---|---|---|
